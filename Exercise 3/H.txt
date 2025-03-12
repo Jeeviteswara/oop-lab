@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class H{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter first string: ");
+        String a = scanner.nextLine();
+        System.out.print("Enter second string: ");
+        String b = scanner.nextLine();
+        String c= a+ " " + b;
+        System.out.println("Concatenated String: " + c);
+        scanner.close();
+}
+}
